@@ -1,4 +1,6 @@
-# Intercept TLS handshakes and log hash, domain name, and base64 encoded cert (as JSON fields) into kafka
+# bro TLS handshake detector script
+
+Intercept TLS handshakes and log the certificate's hash, domain name, and the base64 encoded certificate into kafka. 
 
 ## Installation
 
